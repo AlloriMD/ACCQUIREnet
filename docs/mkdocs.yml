@@ -1,0 +1,67 @@
+# PROJECT INFORMATION
+site_name: ACCQUIREnet
+site_description: Allied Cleft & Craniofacial Quality-Improvement and Research Network
+site_author: Alexander Allori
+site_url: https://accquire.net
+
+# REPOSITORY
+repo_name: allorimd/accquirenet
+repo_url: https://github.com/allorimd/accquirenet
+
+# COPYRIGHT
+copyright: Copyright &copy; 2016 - 2020 Alexander Allori
+
+# CONFIGURATION
+nav:
+    - Home: index.md
+    - About: about.md
+theme: 
+    name: material
+    language: en
+    palette:
+        primary: purple
+        accent: cyan
+    font:
+        text: Ubuntu
+        code: Ubuntu Mono
+    features:
+        - tabs
+extra_css:
+    - stylesheets/extra.css
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
+        
+# EXTRAS
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/allorimd
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/allorimd
+
+# EXTENSIONS
+plugins:
+   - search
+markdown_extensions:
+    - admonition
+    - codehilite:
+        guess_lang: false
+    - footnotes
+    - pymdownx.arithmatex
+    - pymdownx.betterem:
+        smart_enable: all
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+    - pymdownx.inlinehilite
+    - pymdownx.magiclink
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.superfences
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - pymdownx.tabbed
+    - pymdownx.tilde
